@@ -1,0 +1,143 @@
+/*
+Theme Name: Samed Mashhad
+Theme URI: http://ehsanargani.com
+Author: Ehsan Argani
+Author URI: http://ehsanargani.com
+Description:
+Version: 1.0
+*/
+.menu-item-has-children{
+
+}
+.menu-item-has-children i svg {
+    stroke: #dcdced;
+    transition: all 500ms;
+}
+
+.menu-item-has-children:hover i svg {
+    stroke: #d80100;
+}
+
+.menu-item-has-children:hover > a:first-child {
+    color: #d80100;
+}
+
+.dropdown {
+    top: 6.7rem;
+
+}
+
+.menu-item-has-children:hover .dropdown {
+    visibility: visible;
+    background-color: #121225;
+}
+
+.menu-item-has-children:hover .sub-menu {
+    visibility: visible;
+    background-color: #121225;
+        top: 6.7rem;
+    
+    transition: all 0.5s ease;
+}
+
+
+.dropdown li {
+    margin: 20px;
+
+}
+.dropdown li a {
+    text-align: right!important;
+
+}
+
+#cf7cstmzr-form.cf7cstmzr-form-291 .wpcf7-form input[type="text"], #cf7cstmzr-form.cf7cstmzr-form-5428814 .wpcf7-form input[type="text"], #cf7cstmzr-form.cf7cstmzr-form-291 .wpcf7-form input[type="email"], #cf7cstmzr-form.cf7cstmzr-form-5428814 .wpcf7-form input[type="email"], #cf7cstmzr-form.cf7cstmzr-form-291 .wpcf7-form input[type="number"], #cf7cstmzr-form.cf7cstmzr-form-5428814 .wpcf7-form input[type="number"], #cf7cstmzr-form.cf7cstmzr-form-291 .wpcf7-form input[type="tel"], #cf7cstmzr-form.cf7cstmzr-form-5428814 .wpcf7-form input[type="tel"], #cf7cstmzr-form.cf7cstmzr-form-291 .wpcf7-form input[type="url"], #cf7cstmzr-form.cf7cstmzr-form-5428814 .wpcf7-form input[type="url"], #cf7cstmzr-form.cf7cstmzr-form-291 .wpcf7-form input[type="password"], #cf7cstmzr-form.cf7cstmzr-form-5428814 .wpcf7-form input[type="password"], #cf7cstmzr-form.cf7cstmzr-form-291 .wpcf7-form input[type="date"], #cf7cstmzr-form.cf7cstmzr-form-5428814 .wpcf7-form input[type="date"], #cf7cstmzr-form.cf7cstmzr-form-291 .wpcf7-form select, #cf7cstmzr-form.cf7cstmzr-form-5428814 .wpcf7-form select{
+    direction:rtl;
+}
+@media only screen and (max-width: 600px) 
+{
+    .menu_image{
+        display:none;
+    }
+    
+}
+
+
+
+    .wpcf7-form input[type="text"], 
+.wpcf7-form input[type="email"]
+{
+        outline: 2px solid transparent;
+    outline-offset: 2px;
+        --tw-text-opacity: 1;
+    color: rgb(184 184 220 / var(--tw-text-opacity));
+        padding-left: 0.5rem;
+    padding-right: 0.5rem;
+        --tw-bg-opacity: 1;
+    background-color: rgb(34 34 68 / var(--tw-bg-opacity));
+    
+}
+.wpcf7-form textarea {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+        --tw-text-opacity: 1;
+    color: rgb(184 184 220 / var(--tw-text-opacity));
+        padding-left: 0.5rem;
+    padding-right: 0.5rem;
+        --tw-bg-opacity: 1;
+    background-color: rgb(34 34 68 / var(--tw-bg-opacity));
+       
+            border-radius: 0.25rem;
+            resize:none;
+                width: 100%;
+                    min-height: 15rem;
+}
+.wpcf7-form input[type="submit"]{
+        --tw-bg-opacity: 1;
+    background-color: rgb(52 52 105 / var(--tw-bg-opacity));
+    width:100%;
+    padding: 0.5rem;
+                border-radius: 0.25rem;
+                  --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.wpcf7-form .wpcf7-submit:hover{
+        --tw-text-opacity: 1;
+    color: rgb(216 1 0 / var(--tw-text-opacity));
+            --tw-border-opacity: 1;
+    border-color: rgb(216 1 0 / var(--tw-border-opacity));
+        background-color: transparent;
+               transition-duration: 500ms;
+                   transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+      
+                
+        
+}
+.wpcf7-spinner{
+    display:none !important;
+}
+.wpcf7-not-valid-tip{
+    position:relative;
+}
+.tabactive{
+          --tw-bg-opacity: 1;
+    background-color: rgb(216 1 0 / var(--tw-bg-opacity));
+    color:#ffff !important;
+}
+#liDroper:hover #dropDown{
+    visibility:visible !important;
+}
+
+.crop {
+        width: 200px;
+        height: 150px;
+        overflow: hidden;
+        margin:20px;
+    }
+
+    .crop img {
+        width: 400px;
+        height: 300px;
+        margin: -75px 0 0 -100px;
+    }

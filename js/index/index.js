@@ -1,0 +1,5 @@
+const sliderInterval=document.getElementById("sliderInterval");const playCarusel=document.getElementById("playCarusel");const closerAriaSlider=document.getElementById("closerAriaSlider");const pol=document.getElementById("pol");const showImages=document.querySelectorAll("#showImages img");const showSingleImage=document.querySelector(".showSingleImage");let currentSlide=0;const slides=document.querySelectorAll(".slide");const totalSlides=slides.length;function showSlide(index){currentSlide=(index+totalSlides)%totalSlides;const slidesContainer=document.getElementById("slides");slidesContainer.style.transform="translateX("+ -currentSlide*100+"%)"}
+function nextSlide(){showSlide(currentSlide+1)}
+function prevSlide(){showSlide(currentSlide-1)}
+if(playCarusel){playCarusel.addEventListener("click",()=>{closerAriaSlider.style.display="flex";pol.style.display="flex"})}
+window.addEventListener("mouseup",function(event){if(event.target!=pol&&event.target.parentNode!=pol){pol.style.display="none";showSingleImage.style.display="none";closerAriaSlider.style.display="none"}})
